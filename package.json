@@ -1,0 +1,26 @@
+{
+  "name": "bs-react-image-upload",
+  "version": "1.0.0",
+  "description": "ReasonMl binding for react-image-upload",
+  "main": "index.js",
+  "scripts": {
+    "dev": "yarn clean && yarn start",
+    "build": "bsb -make-world",
+    "start": "bsb -make-world -w",
+    "clean": "bsb -clean-world"
+  },
+  "keywords": [
+    "ReasonML",
+    "react-image-upload",
+    "bs-react-image-upload"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bs-platform": "^5.0.6",
+    "react": "^16.9.0",
+    "react-dom": "^16.9.0",
+    "react-images-upload": "^1.2.7",
+    "reason-react": "^0.7.0"
+  }
+}

@@ -1,8 +1,16 @@
 {
   "name": "bs-react-image-upload",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "ReasonMl binding for react-image-upload",
   "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/maxlibin/bs-react-image-upload.git"
+  },
+  "homepage": "https://github.com/maxlibin/bs-react-image-upload",
+  "bugs": {
+    "url": "https://github.com/maxlibin/bs-react-image-upload/issues"
+  },
   "scripts": {
     "dev": "yarn clean && yarn start",
     "build": "bsb -make-world",

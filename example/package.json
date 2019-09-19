@@ -1,6 +1,6 @@
 {
   "name": "bs-react-images-upload-example",
-  "version": "0.0.2",
+  "version": "0.0.1",
   "scripts": {
     "dev": "run-p clean start webpack server",
     "build": "bsb -make-world",

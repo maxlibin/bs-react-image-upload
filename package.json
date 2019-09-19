@@ -1,6 +1,6 @@
 {
   "name": "bs-react-image-upload",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "ReasonMl binding for react-image-upload",
   "main": "index.js",
   "repository": {

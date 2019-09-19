@@ -5,7 +5,16 @@ var React = require("react");
 var ReactImagesUpload = require("react-images-upload");
 
 function App(Props) {
-  return React.createElement("div", undefined, React.createElement(ReactImagesUpload.default, { }));
+  return React.createElement("div", undefined, React.createElement(ReactImagesUpload.default, {
+                  withPreview: true,
+                  withIcon: true,
+                  buttonText: "Choose a image",
+                  imgExtension: /* array */[
+                    "png",
+                    "jpeg"
+                  ],
+                  maxFileSize: 5242880
+                }));
 }
 
 var make = App;

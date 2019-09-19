@@ -22,5 +22,6 @@
     "react-dom": "^16.9.0",
     "react-images-upload": "^1.2.7",
     "reason-react": "^0.7.0"
-  }
+  },
+  "devDependencies": {}
 }
